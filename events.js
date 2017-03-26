@@ -32,7 +32,11 @@ function two () {
   two.addEventListener('mouseleave', makeWhite);
 }
 // CREATE FUNCTION three HERE
-
+function three () {
+  var three = document.getElementById('three');
+  three.addEventListener('mouseenter', makeOrange);
+  three.addEventListener('mouseleave', makeWhite);
+}
 // CREATE FUNCTION four HERE
 
 // Changes the background color of event's target
